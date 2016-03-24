@@ -7,7 +7,7 @@ Something i would like to change in the future since this is a personal project 
 # Running the game
 
 Get the latest release from the release page.       
-Or try it on a github page: http://timhi.github.io/caverunner       
+Or try it on a github page: http://timhi.github.io/CaveRunner       
 
 # Credits
 
