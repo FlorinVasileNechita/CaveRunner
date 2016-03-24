@@ -9,7 +9,7 @@ Something i would like to change in the future since this is a personal project 
 Get the latest release from the release page.       
 Or try it on a github page: http://timhi.github.io/caverunner       
 
-# Credtis
+# Credits
 
 Although all art except the miner are licensed under CC0 i still want to give the artists credits.    
 Powerups: http://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg    
