@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="style.css">
 		<title>Unity Web Player | Cave runner</title>
 		<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
 		<script type="text/javascript">
@@ -64,12 +65,10 @@
 		<!--
 		body {
 			font-family: Helvetica, Verdana, Arial, sans-serif;
-			background-color: white;
-			color: black;
 			text-align: center;
 		}
 		a:link, a:visited {
-			color: #000;
+			color: #fff;
 		}
 		a:active, a:hover {
 			color: #666;
@@ -109,14 +108,24 @@
 		}
 		div#unityPlayer {
 			cursor: default;
-			height: 430px;
-			width: 960px;
+			height: 500px;
+			width: 1000px;
 		}
 		-->
 		</style>
 	</head>
 	<body>
-		<p class="header"><span>Unity Web Player | </span>Cave runner</p>
+        
+        <div id= "Banner">
+        <img name="Banner"  src="images/Banner.png"/>
+        </div>
+        
+	<div id="description">
+        <p>CaveRunner is a simple 2D sidescrolling infinte runner made to get familiar with Unity's 2D tools. </p>
+        <p>Even though its a simple game it gets challenging and can be quite fun, i catched myself wasting time playing instead of testing and developing. </p>
+        
+        <p> You can get the PC Version from the <a href="https://github.com/TimHi/CaveRunner" title="GitHub"> github repo</a>, there are also the credits for the materials i'm currently using. I'm planing to make every graphic and sound myself later on.</p>        
+        </div>
 		<div class="content">
 			<div id="unityPlayer">
 				<div class="missing">
@@ -131,6 +140,59 @@
 				</div>
 			</div>
 		</div>
-		<p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+		<p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p><p> Currently the music is autoplaying without a possibility to turn it off, since i know how annoying that is i will add a volume slider soon.</p>
+        <div id="description">
+            <h2>How to play: </h2>
+            <p>Use space to jump, press space again to double jump</p>
+            <p>Your double jump recharges if you touch a plattform</p>
+            <p>Collect gold and cloverleafs to increase your points</p>
+            <p>Avoid Zombie-eyes because those will get you minus points</p>
+        </div>
+        
+        
+        <div id="Bottomtext">
+            Created by Tim Hiller using Unity 5 | <a href="https://github.com/TimHi">GitHub</a>
+        </div>
 	</body>
 </html>
+
+<!--
+
+         {
+      {   }
+       }_{ __{
+    .-{   }   }-.
+   (   }     {   )
+   |`-.._____..-'|
+   |             ;--.
+   |            (__  \
+   |             | )  )
+   |             |/  /
+   |             /  /    
+   |            (  /
+   \             y'
+    `-.._____..-'
+KaffeeBetrieben
+
+
+Made with the help of brackets, check out their website for more informations
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[     CODE THE WEB     ]:::::]
+    [:::::[  http://brackets.io  ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
